@@ -7,7 +7,7 @@ env:
 
 jobs:
   testRunner:
-    permissions: read-all|write-all
+    permissions: read-all | write-all
     name: Test in ${{ matrix.testMode }} ✨
     runs-on: ubuntu-latest
     strategy:
