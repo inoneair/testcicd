@@ -242,8 +242,8 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    - $CI_DEFAULT_BRANCH
+#  only:
+#    - $CI_DEFAULT_BRANCH
 
 workflow:
   rules:
